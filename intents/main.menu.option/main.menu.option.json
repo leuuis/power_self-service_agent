@@ -1,0 +1,19 @@
+{
+  "name": "5de5693e-908d-4dfd-983b-37ea96af5ae1",
+  "displayName": "main.menu.option",
+  "parameters": [ {
+    "id": "menu_option",
+    "entityType": "@menu_option",
+    "redact": true
+  } ],
+  "priority": 500000,
+  "labels": [ {
+    "key": "menu",
+    "value": "menu"
+  }, {
+    "key": "options",
+    "value": "options"
+  } ],
+  "description": "This intent is triggered when a user select a menu option.",
+  "numTrainingPhrases": 21
+}

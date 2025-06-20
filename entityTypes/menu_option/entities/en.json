@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "ticket",
+    "synonyms": [ " file complaint", " option 3", " power issue", " report ", "3", "fix", "issue", "outage", "problem", "report a problem", "ticket" ],
+    "languageCode": "en"
+  }, {
+    "value": "payment",
+    "synonyms": [ " option 2", " pay", " pay my bill", "2", "make a payment", "pay balance", "pay now", "payment", "process payment", "transaction" ],
+    "languageCode": "en"
+  }, {
+    "value": "billing",
+    "synonyms": [ " amount due", " electricity charges", " option 1", " view billing", "accounts", "bill", "billing", "charges", "check my bill", "dues", "invoicing", "owe", "1" ],
+    "languageCode": "en"
+  } ]
+}

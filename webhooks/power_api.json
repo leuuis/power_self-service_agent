@@ -1,0 +1,14 @@
+{
+  "name": "c99b41c4-3394-49bc-98f7-4bd9a96c8082",
+  "displayName": "power_api",
+  "genericWebService": {
+    "uri": "https://power-self-service-agent.free.beeceptor.com/api/bill",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"correlative\": \"$session.params.correlative\",\n  \"accountant\": \"$session.params.accountant\",\n  \"nit\": \"$session.params.nit\"\n}",
+    "serviceAgentAuth": "NONE"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}
