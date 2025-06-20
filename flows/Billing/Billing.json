@@ -6,7 +6,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Now I'll help you with your billing." ]
+          "text": [ "Now I'll help you with your billing account." ]
         },
         "languageCode": "en"
       } ]

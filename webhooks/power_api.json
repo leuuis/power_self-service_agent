@@ -6,7 +6,24 @@
     "webhookType": "FLEXIBLE",
     "httpMethod": "POST",
     "requestBody": "{\n  \"correlative\": \"$session.params.correlative\",\n  \"accountant\": \"$session.params.accountant\",\n  \"nit\": \"$session.params.nit\"\n}",
-    "serviceAgentAuth": "NONE"
+    "parameterMapping": [ {
+      "key": "consumo_kwh",
+      "value": "sessionInfo.parameters.consumo_kwh"
+    }, {
+      "key": "fecha_emision",
+      "value": "sessionInfo.parameters.fecha_emision"
+    }, {
+      "key": "titular_servicio",
+      "value": "sessionInfo.parameters.titular_servicio"
+    }, {
+      "key": "total_a_pagar",
+      "value": "sessionInfo.parameters.total_a_pagar"
+    }, {
+      "key": "url_factura_pdf",
+      "value": "sessionInfo.parameters.url_factura_pdf"
+    } ],
+    "serviceAgentAuth": "NONE",
+    "parameterRedactionList": [ "titualr_servicio" ]
   },
   "timeout": {
     "seconds": 5
