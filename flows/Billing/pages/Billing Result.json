@@ -1,0 +1,15 @@
+{
+  "name": "d9956eb1-0f35-40f8-a697-7256d0a58e50",
+  "displayName": "Billing Result",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "📄 Resumen de Factura\n\n👤 Titular: $session.params.titular_servicio  \n📅 Fecha de emisión: $session.params.fecha_emision  \n💡 Consumo: $session.params.consumo_kwh kWh  \n💰 Total a pagar: $session.params.total_a_pagar  \n🔗 PDF: $session.params.url_factura_pdf" ]
+      },
+      "languageCode": "en"
+    } ]
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Help me with a ",
+      "auto": true
+    }, {
+      "text": "payment",
+      "parameterId": "menu_option",
+      "auto": true
+    }, {
+      "text": " process",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Option 3",
+      "parameterId": "menu_option",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need to ",
+      "auto": true
+    }, {
+      "text": "make a payment",
+      "parameterId": "menu_option",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to ",
+      "auto": true
+    }, {
+      "text": "pay my balance",
+      "parameterId": "menu_option",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can I ",
+      "auto": true
+    }, {
+      "text": "pay now",
+      "parameterId": "menu_option",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Pay",
+      "parameterId": "menu_option",
+      "auto": true
+    }, {
+      "text": " my electricity ",
+      "auto": true
+    }, {
+      "text": "bill",
+      "parameterId": "menu_option",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'd like to ",
+      "auto": true
+    }, {
+      "text": "make a payment",
+      "parameterId": "menu_option",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need help with a power ",
+      "auto": true
+    }, {
+      "text": "outage",
+      "parameterId": "menu_option",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Option 2",
+      "parameterId": "menu_option",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I have an ",
+      "auto": true
+    }, {
+      "text": "issue",
+      "parameterId": "menu_option",
+      "auto": true
+    }, {
+      "text": " with the service",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can I ",
+      "auto": true
+    }, {
+      "text": "file a complaint",
+      "parameterId": "menu_option",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My electricity is not working",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Something's wrong with my power",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to ",
+      "auto": true
+    }, {
+      "text": "report a problem",
+      "parameterId": "menu_option",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'd like to ",
+      "auto": true
+    }, {
+      "text": "view my billing",
+      "parameterId": "menu_option",
+      "auto": true
+    }, {
+      "text": " details",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Option 1",
+      "parameterId": "menu_option",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How much do I owe?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can I see my last ",
+      "auto": true
+    }, {
+      "text": "bill",
+      "parameterId": "menu_option",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What's the ",
+      "auto": true
+    }, {
+      "text": "amount due",
+      "parameterId": "menu_option",
+      "auto": true
+    }, {
+      "text": " on my ",
+      "auto": true
+    }, {
+      "text": "account",
+      "parameterId": "menu_option",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Show me my ",
+      "auto": true
+    }, {
+      "text": "bill",
+      "parameterId": "menu_option",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to check my electricity ",
+      "auto": true
+    }, {
+      "text": "bill",
+      "parameterId": "menu_option",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

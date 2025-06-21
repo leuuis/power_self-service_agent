@@ -1,0 +1,49 @@
+{
+  "displayName": "Billing - Information",
+  "defaultLanguageCode": "en",
+  "timeZone": "America/Los_Angeles",
+  "enableLogging": true,
+  "projectNumber": 811757016031,
+  "speechToTextSettings": {
+    "enableSpeechAdaptation": true
+  },
+  "startFlow": "Default Start Flow",
+  "enableStackdriverLogging": true,
+  "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      },
+      "models": [ {
+        "key": "en",
+        "value": "telephony_short"
+      } ]
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+      "enableStackdriverLogging": true,
+      "enableInteractionLogging": true
+    },
+    "speechAdaptationSettings": {
+    
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "duplexSettings": {
+  
+  },
+  "answerFeedbackSettings": {
+  
+  },
+  "webClientSettings": {
+    "boxBorderRadius": "0"
+  }
+}

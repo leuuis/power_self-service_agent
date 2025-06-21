@@ -1,0 +1,99 @@
+{
+  "name": "2f1666c6-bc3c-446c-8465-dadcec25cf22",
+  "displayName": "Billing Form",
+  "form": {
+    "parameters": [ {
+      "displayName": "correlative",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please! Can you digit your correlative number following by the # symbol?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "enabled": true,
+          "maxDigits": 6,
+          "finishDigit": "#",
+          "useSystemEntityRule": false,
+          "interdigitTimeoutDuration": {
+            "seconds": 5
+          },
+          "endpointingTimeoutDuration": {
+            "seconds": 15
+          }
+        }
+      },
+      "description": "Correlative number to identify your service"
+    }, {
+      "displayName": "accountant",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Thank you, Now digit your accountant number please following by the # symbol." ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "enabled": true,
+          "maxDigits": 5,
+          "finishDigit": "#",
+          "useSystemEntityRule": false,
+          "interdigitTimeoutDuration": {
+            "seconds": 5
+          },
+          "endpointingTimeoutDuration": {
+            "seconds": 15
+          }
+        }
+      },
+      "description": "The number for the accountant dispositive"
+    }, {
+      "displayName": "nit",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Excelent! At the end type the Service's Taxpayer Identifier Number or TIN please." ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      },
+      "description": "Taxpayer Identification Number in Spanish as NIT."
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Please wait a moment while I'm consulting your billing information." ]
+        },
+        "languageCode": "en"
+      } ],
+      "webhook": "power_api",
+      "tag": "bill"
+    },
+    "targetPage": "Billing Result",
+    "name": "162fe397-aff9-4dbe-ae19-a409f864d9cf",
+    "description": "A route to take the user from Billing Form Page to Billing Result Page"
+  } ]
+}
